@@ -1,0 +1,37 @@
+dependencies: \
+  /Users/JackWong/Downloads/KSYMediaPlayer-IOS.git/KSYMediaPlayer/KSYMediaPlayer/ksymedia/ksysdl/ffmpeg/abi_all/image_convert.c \
+  /Users/JackWong/Downloads/KSYMediaPlayer-IOS.git/KSYMediaPlayer/KSYMediaPlayer/ksymedia/ksysdl/ffmpeg/abi_all/../ksysdl_image_convert.h \
+  /Users/JackWong/Downloads/KSYMediaPlayer-IOS.git/KSYMediaPlayer/KSYMediaPlayer/ksymedia/ksysdl/ffmpeg/abi_all/../ksysdl_inc_ffmpeg.h \
+  /Users/JackWong/Downloads/KSYMediaPlayer-IOS.git/KSYMediaPlayer/KSYMediaPlayer/ffmpeg/include/libavutil/imgutils.h \
+  /Users/JackWong/Downloads/KSYMediaPlayer-IOS.git/KSYMediaPlayer/KSYMediaPlayer/ffmpeg/include/libavutil/avutil.h \
+  /Users/JackWong/Downloads/KSYMediaPlayer-IOS.git/KSYMediaPlayer/KSYMediaPlayer/ffmpeg/include/libavutil/common.h \
+  /Users/JackWong/Downloads/KSYMediaPlayer-IOS.git/KSYMediaPlayer/KSYMediaPlayer/ffmpeg/include/libavutil/attributes.h \
+  /Users/JackWong/Downloads/KSYMediaPlayer-IOS.git/KSYMediaPlayer/KSYMediaPlayer/ffmpeg/include/libavutil/version.h \
+  /Users/JackWong/Downloads/KSYMediaPlayer-IOS.git/KSYMediaPlayer/KSYMediaPlayer/ffmpeg/include/libavutil/macros.h \
+  /Users/JackWong/Downloads/KSYMediaPlayer-IOS.git/KSYMediaPlayer/KSYMediaPlayer/ffmpeg/include/libavutil/avconfig.h \
+  /Users/JackWong/Downloads/KSYMediaPlayer-IOS.git/KSYMediaPlayer/KSYMediaPlayer/ffmpeg/include/libavutil/mem.h \
+  /Users/JackWong/Downloads/KSYMediaPlayer-IOS.git/KSYMediaPlayer/KSYMediaPlayer/ffmpeg/include/libavutil/error.h \
+  /Users/JackWong/Downloads/KSYMediaPlayer-IOS.git/KSYMediaPlayer/KSYMediaPlayer/ffmpeg/include/libavutil/rational.h \
+  /Users/JackWong/Downloads/KSYMediaPlayer-IOS.git/KSYMediaPlayer/KSYMediaPlayer/ffmpeg/include/libavutil/mathematics.h \
+  /Users/JackWong/Downloads/KSYMediaPlayer-IOS.git/KSYMediaPlayer/KSYMediaPlayer/ffmpeg/include/libavutil/intfloat.h \
+  /Users/JackWong/Downloads/KSYMediaPlayer-IOS.git/KSYMediaPlayer/KSYMediaPlayer/ffmpeg/include/libavutil/log.h \
+  /Users/JackWong/Downloads/KSYMediaPlayer-IOS.git/KSYMediaPlayer/KSYMediaPlayer/ffmpeg/include/libavutil/pixfmt.h \
+  /Users/JackWong/Downloads/KSYMediaPlayer-IOS.git/KSYMediaPlayer/KSYMediaPlayer/ffmpeg/include/libavutil/old_pix_fmts.h \
+  /Users/JackWong/Downloads/KSYMediaPlayer-IOS.git/KSYMediaPlayer/KSYMediaPlayer/ffmpeg/include/libavutil/pixdesc.h \
+  /Users/JackWong/Downloads/KSYMediaPlayer-IOS.git/KSYMediaPlayer/KSYMediaPlayer/ffmpeg/include/libavutil/frame.h \
+  /Users/JackWong/Downloads/KSYMediaPlayer-IOS.git/KSYMediaPlayer/KSYMediaPlayer/ffmpeg/include/libavutil/buffer.h \
+  /Users/JackWong/Downloads/KSYMediaPlayer-IOS.git/KSYMediaPlayer/KSYMediaPlayer/ffmpeg/include/libavutil/dict.h \
+  /Users/JackWong/Downloads/KSYMediaPlayer-IOS.git/KSYMediaPlayer/KSYMediaPlayer/ffmpeg/include/libavutil/samplefmt.h \
+  /Users/JackWong/Downloads/KSYMediaPlayer-IOS.git/KSYMediaPlayer/KSYMediaPlayer/ffmpeg/include/libavcodec/avcodec.h \
+  /Users/JackWong/Downloads/KSYMediaPlayer-IOS.git/KSYMediaPlayer/KSYMediaPlayer/ffmpeg/include/libavutil/cpu.h \
+  /Users/JackWong/Downloads/KSYMediaPlayer-IOS.git/KSYMediaPlayer/KSYMediaPlayer/ffmpeg/include/libavutil/channel_layout.h \
+  /Users/JackWong/Downloads/KSYMediaPlayer-IOS.git/KSYMediaPlayer/KSYMediaPlayer/ffmpeg/include/libavcodec/version.h \
+  /Users/JackWong/Downloads/KSYMediaPlayer-IOS.git/KSYMediaPlayer/KSYMediaPlayer/ffmpeg/include/libavcodec/old_codec_ids.h \
+  /Users/JackWong/Downloads/KSYMediaPlayer-IOS.git/KSYMediaPlayer/KSYMediaPlayer/ffmpeg/include/libswscale/swscale.h \
+  /Users/JackWong/Downloads/KSYMediaPlayer-IOS.git/KSYMediaPlayer/KSYMediaPlayer/ffmpeg/include/libswscale/version.h \
+  /Users/JackWong/Downloads/KSYMediaPlayer-IOS.git/KSYMediaPlayer/KSYMediaPlayer/ksymedia/ksysdl/ffmpeg/abi_all/../../ksysdl_inc_internal.h \
+  /Users/JackWong/Downloads/KSYMediaPlayer-IOS.git/KSYMediaPlayer/KSYMediaPlayer/ksymedia/ksyutil/ksyutil.h \
+  /Users/JackWong/Downloads/KSYMediaPlayer-IOS.git/KSYMediaPlayer/KSYMediaPlayer/ksymedia/ksyutil/ksylog.h \
+  /Users/JackWong/Downloads/KSYMediaPlayer-IOS.git/KSYMediaPlayer/KSYMediaPlayer/ksymedia/ksyutil/ios/loghelp.h \
+  /Users/JackWong/Downloads/KSYMediaPlayer-IOS.git/KSYMediaPlayer/KSYMediaPlayer/ksymedia/ksyutil/ios/ksyutil_ios.h \
+  /Users/JackWong/Downloads/KSYMediaPlayer-IOS.git/KSYMediaPlayer/KSYMediaPlayer/ksymedia/ksysdl/ksysdl_stdinc.h

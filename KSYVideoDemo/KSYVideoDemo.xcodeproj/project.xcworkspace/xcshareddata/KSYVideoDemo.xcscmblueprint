@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0CFA112DD185579A5A6F8850F048AC72CD14AD78",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6AA68591624CE172FDFFCF3C19FD7914B4BA5D2F" : 0,
+    "0CFA112DD185579A5A6F8850F048AC72CD14AD78" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1DAFA7E4-DDCE-4AFD-BB22-AC8BE3705BF9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6AA68591624CE172FDFFCF3C19FD7914B4BA5D2F" : "KSYMediaPlayer-IOS",
+    "0CFA112DD185579A5A6F8850F048AC72CD14AD78" : "KSYMediaPlayer"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "KSYVideoDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "KSYVideoDemo\/KSYVideoDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:ks3sdk\/KSYMediaPlayer-iOS-SDK.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0CFA112DD185579A5A6F8850F048AC72CD14AD78"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "gitlab.com:JackWong\/KSYMediaPlayer-IOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6AA68591624CE172FDFFCF3C19FD7914B4BA5D2F"
+    }
+  ]
+}

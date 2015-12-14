@@ -1,0 +1,100 @@
+/*
+ * KSYFFMrl.m
+ *
+ * Copyright (c) 2013 
+ *
+ * This file is part of ksyPlayer.
+ *
+ * ksyPlayer is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public
+ * License as published by the Free Software Foundation; either
+ * version 2.1 of the License, or (at your option) any later version.
+ *
+ * ksyPlayer is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with ksyPlayer; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
+ */
+
+#import "KSYFFMrl.h"
+#import "KSYMediaUtils.h"
+#include "libavutil/base64.h"
+#include "libavutil/mem.h"
+
+@implementation KSYFFMrl {
+    NSString *_tmpFile;
+}
+
+@synthesize rawMrl      = _rawMrl;
+@synthesize resolvedMrl = _resolvedMrl;
+
+- (KSYFFMrl *)initWithMrl: (NSString*)aMrl
+{
+    self = [super init];
+    if (self != nil) {
+        [self initialize:aMrl];
+       
+    }
+    return self;
+}
+
+- (void)initialize:(NSString*)aMrl
+{
+    _rawMrl      = aMrl;
+    _resolvedMrl = aMrl;
+    if ([_rawMrl hasPrefix:@"data://"]) {
+        NSRange range = [_rawMrl rangeOfString:@","];
+        if (range.length > 0) {
+            NSString *data = [_rawMrl substringFromIndex:(range.location + 1)];
+            NSString *ffConcat = [KSYFFMrl base64Decode:data];
+            
+            _tmpFile = [KSYMediaUtils createTempFileNameForFFConcat];
+            [ffConcat writeToFile:_tmpFile
+                       atomically:YES
+                         encoding:NSStringEncodingConversionAllowLossy
+                            error:nil];
+            
+            _resolvedMrl = [[NSString alloc] initWithFormat:@"concat://%@", _tmpFile];
+        }
+    }
+    
+    if (_resolvedMrl == nil)
+        _resolvedMrl = _rawMrl;
+}
+
+- (void) removeTempFiles
+{
+    if (_tmpFile != nil) {
+        [[NSFileManager defaultManager] removeItemAtPath:_tmpFile error:nil];
+        _tmpFile = nil;
+    }
+}
+
++ (NSString *) base64Decode: (NSString*)cipher
+{
+    int ret = 0;
+    const char *utf8Cipher = [cipher UTF8String];
+    uint8_t *utf8Plain = NULL;
+    size_t in_size = strlen(utf8Cipher);
+
+    size_t out_size = (in_size + 1) * 3 / 4 + 1;
+
+    if (out_size > INT_MAX || !(utf8Plain = av_mallocz(out_size)))
+        return NULL;
+    if ((ret = av_base64_decode(utf8Plain, utf8Cipher, (int)out_size)) < 0) {
+        av_free(utf8Plain);
+        NSLog(@"Invalid base64 in MRL\n");
+        return NULL;
+    }
+
+    NSString *plain = [[NSString alloc] initWithUTF8String:(const char *)utf8Plain];
+    av_free(utf8Plain);
+
+    return plain;
+}
+
+@end

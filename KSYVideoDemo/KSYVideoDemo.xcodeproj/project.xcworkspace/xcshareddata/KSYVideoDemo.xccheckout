@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1DAFA7E4-DDCE-4AFD-BB22-AC8BE3705BF9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>KSYVideoDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0CFA112DD185579A5A6F8850F048AC72CD14AD78</key>
+		<string>github.com:ks3sdk/KSYMediaPlayer-iOS-SDK.git</string>
+		<key>6AA68591624CE172FDFFCF3C19FD7914B4BA5D2F</key>
+		<string>gitlab.com:JackWong/KSYMediaPlayer-IOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>KSYVideoDemo/KSYVideoDemo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0CFA112DD185579A5A6F8850F048AC72CD14AD78</key>
+		<string>../../..</string>
+		<key>6AA68591624CE172FDFFCF3C19FD7914B4BA5D2F</key>
+		<string>../../../../KSYMediaPlayer-IOS</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:ks3sdk/KSYMediaPlayer-iOS-SDK.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0CFA112DD185579A5A6F8850F048AC72CD14AD78</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0CFA112DD185579A5A6F8850F048AC72CD14AD78</string>
+			<key>IDESourceControlWCCName</key>
+			<string>KSYMediaPlayer</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6AA68591624CE172FDFFCF3C19FD7914B4BA5D2F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>KSYMediaPlayer-IOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>

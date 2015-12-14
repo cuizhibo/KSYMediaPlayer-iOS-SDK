@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7549" systemVersion="14D131" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="KSYLog" representedClassName="KSYLog" syncable="YES">
+        <attribute name="endEnd" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="seekBegin" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="KSYLogEntity" representedClassName="KSYLogEntity" syncable="YES">
+        <attribute name="basicsJson" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstScreenJson" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="networkJson" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="performanceJson" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="playStateJson" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="seekBeginJson" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="seekDetailJson" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="seekEndJson" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="seekStateJson" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="KSYLogEntity" positionX="-36" positionY="9" width="128" height="180"/>
+        <element name="KSYLog" positionX="0" positionY="117" width="128" height="75"/>
+    </elements>
+</model>
